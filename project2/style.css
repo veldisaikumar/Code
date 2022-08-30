@@ -1,0 +1,73 @@
+html,body{
+    margin: 0;
+}
+.main1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.main1 .left{
+background-color: black;
+width: 20%;
+height: 100vh;
+}
+.main1 .left .left-inner{
+    background-color: black;
+    width: 88%;
+    height: 96%;
+    /* padding-left: 20px; */
+    margin:  15px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main1 .left .left-inner .top{
+font-size: 40px;
+padding: 20px 20px;
+background-color: orange;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.main1 .left .left-inner li{
+color: white;
+list-style: none;
+margin-top: 10px;
+font-size: 30px;
+}
+.main1 .left .left-inner .battom{
+    font-size: 40px;
+    padding: 20px 20px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.main1 .right{
+    /* background-color: brown; */
+    background-image: url('bg.png');
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 100vh;
+}
+
+
+.main1 .right h3{
+    color: orange;
+    font-size: 50px;
+    margin: 0;
+}
+.main1 .right h1{
+    color: white;
+    font-size: 60px;
+    margin: 0;
+}
+.main1 .right .right-inner{
+    margin: 0;
+  padding: 20px 20px;  
+}
+.main1 .right .right-inner img{
+width: 60px;
+color: white;
+}
