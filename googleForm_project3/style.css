@@ -1,0 +1,21 @@
+
+.main-wrapper {
+	margin-top: 20px;
+	/* background-color: rgb(168, 31, 60); */
+}
+
+.page-title {
+	text-align: center;
+}
+
+.registration-form {
+	width: 800px;
+  margin: auto;
+  /* background-color: blueviolet; */
+}
+/* .valid-feedback, .invalid-feedback {
+	display: block;
+} */
+body{
+background-image: url("https://argenica.com.au/wp-content/uploads/2021/06/argenica-about.jpg");
+}
