@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* COMMON CLASSES */
+.btn-bg-major {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+.btn-bg-minor{
+    background-color: bisque !important;
+}
+
+/* NAVIGATION */
+
+.navigation{
+    /* background-color: #f5f5f5; */
+    height: 50px;
+    /* width: 100%; */
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    z-index: 1;
+    display: flex;
+    padding: 5px 15px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 5px 2px #ccc;
+}
+
+.navigation ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navigation button{
+    background-color: white;
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+}
+
+/* SECTION 1 */
+.section-1{
+    height: 80vh;
+    background: url('https://duttrohan0302.github.io/accio-batch11/dec16th_bootstrap_UI/images/image2.jpg');
+    /* Parallex effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity 0-1 */
+    /* opacity: .5; */
+}
+.section-1 .banner{
+    display: flex;
+    flex-direction: column;
+}
+.section-1 .banner h1{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-1 .banner p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.section-1 .banner .banner-buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.section-1 .banner button{
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+}
+
+/* SECTION 2 */
+.section-2 {
+    height: 80vh;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-2 h1 {
+    font-size: 50px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-2 > p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+}
+.section-2 .section-2-cards {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.section-2 .section-2-cards .card {
+    width: 300px;
+    border-radius: 12px;
+    border: 1px solid #ededed;
+}
+.section-2 .section-2-cards .card img{
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+.section-2 .section-2-cards .card .card-body {
+    padding: 5px 10px;
+}
+
+/* SECTION 3 */
+.section-3 {
+    height: 80vh;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('https://duttrohan0302.github.io/accio-batch11/dec16th_bootstrap_UI/images/image3.jpg');
+    /* Parallex effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-3 h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-3 > p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.section-3 button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+}
+
+/* SECTION 4 */
+.section-4{
+    height: 80vh;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-4 .section-4-cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.section-4 .section-4-card {
+    margin-top: 30px;
+    width: 300px;
+    display: flex;
+    gap: 10px;
+}
+
+.section-4 .section-4-card svg{
+    width: 30px;
+    color: rgb(255, 158, 39);
+}
+
+/* SECTION 5 */
+.section-5{
+    height: 60vh;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(39, 39, 39);
+}
+.section-5 .section-5-left {
+    width: 50%;
+}
+.section-5 .section-5-left img {
+    width: 100%;
+}
+.section-5 .section-5-right {
+    width: 50%;
+}
+.section-5 .section-5-right h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.section-5 .section-5-right button {
+    margin-top: 20px;;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+}
+.section-5 .section-5-right button:hover {
+    box-shadow: 0 0 5px 2px #ccc;
+    color: grey;
+    cursor: pointer;
+}
+.section-5 .section-5-right p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(190, 190, 190);
+}
+
+/* SECTION 6 */
+.section-6 {
+    height: 30vh;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.section-6 h1 {
+    font-size: 50px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-6 .subscribe-newsletter{
+    margin: 20px;
+}
+.section-6 .subscribe-newsletter input {
+    border: 1px solid rgb(175, 175, 175);
+    width: 300px;
+    padding: 5px;
+    outline: none;
+}
+.section-6 .subscribe-newsletter button {
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(255, 158, 39);
+    color: white;
+}
+.section-6 .social-icon {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.section-6 .social-icon img{
+    width: 30px;
+    cursor: pointer;
+}
+.section-6 code {
+    bottom: 20px;
+    position: absolute;
+}

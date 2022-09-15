@@ -1,0 +1,27 @@
+/* *{
+    margin: 0;
+} */
+html,body{
+    margin: 0;
+}
+.main{
+    height: 100vh;
+   background-color: aqua;
+   display: flex;
+}
+.main .sub{
+     height: 300px;
+     width: 150px;
+     background-color: blueviolet;
+     display: flex;
+     /* align-items: center; */
+     /* align-content: center;
+     justify-content: space-around; */
+     /* justify-items: center; */
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: auto;
+     margin-bottom: auto; 
+     border: 1px solid red;
+    
+}

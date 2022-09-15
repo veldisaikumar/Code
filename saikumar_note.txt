@@ -1,0 +1,13 @@
+lst={1:"onions",2:"lettuce",3:"tomato",4:"olives",5:"peppers",6:"tomatoes"}
+
+print(lst)
+first=int(input("enter first choice "))
+print(lst[first])
+second=int(input("enter second choice "))
+print(lst[second])
+third=int(input("enter third choice "))
+print(lst[third])
+
+howMany=int(input("enter no.of Sandwiches you want "))
+total=5*howMany
+print(f"Total = {total}$")

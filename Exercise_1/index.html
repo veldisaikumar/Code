@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        let students =
+      [
+        {
+          name: 'Rama',
+          batch: 9,
+          likesIcecream: true,
+        },
+        {
+          name: 'Irfan',
+          batch: 8,
+          likesIcecream: false,
+        },
+        {
+          name: 'Swapneel',
+          batch: 7,
+          likesIcecream: false,
+        },
+        {
+          name: 'Sampath',
+          batch: 8,
+          likesIcecream: true,
+        },
+        {
+          name: 'Vishwanath',
+          batch: 9,
+          likesIcecream: true,
+        }
+      ]
+
+      //method 1
+    //     let arr=[]
+    //   for(element of students)
+    //   {
+    //     if(element.likesIcecream)
+    //     {
+    //          arr.push(element)
+    //     }
+    //   }
+    //   console.log(arr)
+
+      //method 2
+        // let ans=students.filter(student => student.likesIcecream)
+        // console.log(ans)
+
+        // method 3
+        // let ans=students.filter(function(student)
+        // {
+        //     return student.likesIcecream===true
+        // })
+        // console.log(ans)
+
+        console.log(students.filter(student=>student.likesIcecream).map(student=>student.name))
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
